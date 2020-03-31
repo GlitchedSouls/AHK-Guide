@@ -1,0 +1,11 @@
+You can either run a script then right click on it in the System Tray and select Windows Spy OR search of it in the install directory.
+
+Window Title, Class and Process:
+The only commonly used info from this box is the top one for title matching, we will come back to this later.
+
+Mouse Position:
+This will be the coordinates of the active window, so make sure you click on the window you want to get coordinates for to activate it.
+If you are following along you should be using the coordinates marked as "Client"
+Color is the color currently under your cursor, it is importanat to remember this is RGB, many functions default to BGR.
+
+Unfinished, Create a pull request to add info.
