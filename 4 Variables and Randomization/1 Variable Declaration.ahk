@@ -1,4 +1,7 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+﻿;https://www.autohotkey.com/docs/Variables.htm
+
+;Variables should always be declared like this to store a number:
+    varHere := numHere
+
+;You can also store strings this way when surrounded by quotation marks.
+    varHere := "stringHere"
