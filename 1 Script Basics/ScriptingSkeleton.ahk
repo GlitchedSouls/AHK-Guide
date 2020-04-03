@@ -3,11 +3,11 @@
 ; Check out the AHK Docs: https://www.autohotkey.com/docs/AutoHotkey.htm
 
 ; AHK Directives
+CoordMode, Mouse, Client 
+CoordMode, Pixel, Client
 #SingleInstance, Force
 #Warn
 SendMode Input
-CoordMode, Mouse, Client 
-CoordMode, Pixel, Client
 
 ; Script Specific Global Variables
 
