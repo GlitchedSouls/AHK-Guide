@@ -5,6 +5,7 @@
 ; AHK Directives
 #SingleInstance, Force
 #Warn
+SendMode Input
 CoordMode, Mouse, Client 
 CoordMode, Pixel, Client
 
