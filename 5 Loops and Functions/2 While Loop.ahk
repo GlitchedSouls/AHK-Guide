@@ -1,4 +1,10 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+﻿;https://www.autohotkey.com/docs/commands/While.htm
+
+While(Expression)
+
+;While will continue doing and looping anything in the code block following it until the expression is false.
+
+x := 0
+While(x<50){
+    Random, x, 0, 100  
+}
